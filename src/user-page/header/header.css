@@ -7,22 +7,9 @@
 
 .username{
   margin: 1% auto auto 7%;
-  
-}
-.navbar{
-	position: fixed;
-	left: 240px;
-	background-color: grey;
-	width: 600px;
-}
-.navbarcontainer{
-	border-bottom: 1px black solid;
-	width: 100%;
 
 }
-.container{
-	background-color: green;
-	width: 100%;
-}
-	
 
+.navbar-nav{
+  flex-direction: row;
+}
