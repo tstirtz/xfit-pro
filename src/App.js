@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './user-page/header/header';
+import StatusFeed from './user-page/status-feed/status-feed';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
         <header className="App-header">
           <Header />
         </header>
+        <StatusFeed />
       </div>
     );
   }
