@@ -4,7 +4,7 @@ import Header from './user-page/header/header';
 import SideBar from './user-page/sidebar/sidebar';
 =======
 import StatusFeed from './user-page/status-feed/status-feed';
->>>>>>> 4dbc0398f322172da7affbb544978f420484d8a6
+
 
 class App extends Component {
   render() {
@@ -13,13 +13,13 @@ class App extends Component {
         <header className="App-header">
           <Header />
         </header>
-<<<<<<< HEAD
+
       	<div className = "sidebar">
       		<SideBar />
       	</div>
-=======
+
         <StatusFeed />
->>>>>>> 4dbc0398f322172da7affbb544978f420484d8a6
+
       </div>
     );
   }
