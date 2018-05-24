@@ -1,0 +1,35 @@
+.sidebar{
+	border: 1px solid black;
+	min-height: 70vh;
+	width: 240px;
+}
+
+.widgetheader{
+	font-size: 18px;
+	text-align: center;
+	padding-top: 2%;
+}
+.widgetfield{
+	margin: 0 auto;
+	height: 80%;
+	width: 90%;
+	background-color: white;
+	border-radius: 25px;
+}
+
+.widgetcontainer{
+	margin: 5% auto 10% auto;
+	background-color: grey;
+	width: 80%;
+	height: 28vh;
+	border-radius: 15px;
+	
+}
+.editbar{
+	font-color: yellow;
+	text-align: right;
+}
+.editbar a{
+	color: yellow;
+	margin-right: 10%;
+}

@@ -2,9 +2,27 @@
   height: 150px;
   width: 150px;
   border-radius: 300px;
+  margin: 2% auto auto 5%;
 }
 
 .username{
-  margin: 10px;
-  margin-left: 40px;
+  margin: 1% auto auto 7%;
+  
 }
+.navbar{
+	position: fixed;
+	left: 240px;
+	background-color: grey;
+	width: 600px;
+}
+.navbarcontainer{
+	border-bottom: 1px black solid;
+	width: 100%;
+
+}
+.container{
+	background-color: green;
+	width: 100%;
+}
+	
+
