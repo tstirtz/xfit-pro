@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Header from './user-page/header/header';
-<<<<<<< HEAD
+
 import SideBar from './user-page/sidebar/sidebar';
-=======
+
 import StatusFeed from './user-page/status-feed/status-feed';
 
 
