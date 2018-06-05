@@ -1,4 +1,5 @@
 import React from 'react';
+import { FormGroup, ControlLabel, FormControl } from 'react-bootstrap';
 import ModalBox from '../modal/modal';
 
 export default class SideWidget extends React.Component {
@@ -25,7 +26,7 @@ export default class SideWidget extends React.Component {
     this.setState({ show: true });
   }
  
-  render(){
+  render() {
   return(
   	<div>
 			<div class = "widgetcontainer">
@@ -40,8 +41,23 @@ export default class SideWidget extends React.Component {
 				<button type="button" onClick={this.handleShow}>Edit</button>
 				</div>
 			</div>
-			<ModalBox openModal={this.state.show} close={this.handleClose}/>
+			<ModalBox
+				body={
+					<div>
+					<form>
+						<input type="text" />
+					</form>
+					<FormGroup controlId="formControlsSelect">
+						<ControlLabel>Select</ControlLabel>
+						<FormControl componentClass="select" placeholder="select">
+							<option value="select">select</option>
+							<option value="other">...</option>
+						</FormControl>
+					</FormGroup>
+				</div>
+				}
+				openModal={this.state.show}
+				close={this.handleClose}/>
 		</div>
 		);
-
 }}
