@@ -13,6 +13,7 @@ export default function ModalBox(props) {
 					</Modal.Header>
 					<Modal.Body>
 						<h4>Content</h4>
+						{props.body}
 					</Modal.Body>
 					<Modal.Footer>
 						<Button onClick={props.close}>Close</Button>
