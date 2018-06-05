@@ -7,7 +7,7 @@ import About from './about-page/about';
 
 // TODO
 // Set up pictures route and gym route
-function App() {
+export default function App() {
   return (
     <Router>
       <div className="App">
