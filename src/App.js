@@ -6,8 +6,7 @@ import SideBar from './user-page/sidebar/sidebar';
 import StatusFeed from './user-page/status-feed/status-feed';
 
 
-class App extends Component {
-  render() {
+export default function App() {
     return (
       <div className="App">
         <header className="App-header">
@@ -22,7 +21,5 @@ class App extends Component {
 
       </div>
     );
-  }
 }
 
-export default App;
