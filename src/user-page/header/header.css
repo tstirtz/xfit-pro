@@ -10,6 +10,6 @@
 
 }
 
-.navbar-nav{
+.container .navbar-nav{
   flex-direction: row;
 }
