@@ -12,7 +12,6 @@ export default function ModalBox(props) {
 						<Modal.Title>Title</Modal.Title>
 					</Modal.Header>
 					<Modal.Body>
-						<h4>Content</h4>
 						{props.body}
 					</Modal.Body>
 					<Modal.Footer>

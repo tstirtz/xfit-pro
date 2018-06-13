@@ -28,8 +28,8 @@ export default class SideWidget extends React.Component {
  
   render() {
   return(
-  	<div>
-			<div class = "widgetcontainer">
+		<div>
+			<div className = "widgetcontainer">
 				<div>
 					<h3  className = "widgetheader">Text</h3>
 				</div>
@@ -38,20 +38,26 @@ export default class SideWidget extends React.Component {
 
 				</div>
 				<div className = "editbar">
-				<button type="button" onClick={this.handleShow}>Edit</button>
+					<button type="button" onClick={this.handleShow}>Edit</button>
 				</div>
 			</div>
 			<ModalBox
 				body={
 					<div>
 					<form>
-						<input type="text" />
+						<label htmlFor="workout-stats">Workout Stats</label>
+						<input type="text" id="workout-stats"/>
 					</form>
 					<FormGroup controlId="formControlsSelect">
-						<ControlLabel>Select</ControlLabel>
+						<ControlLabel>Workout</ControlLabel>
 						<FormControl componentClass="select" placeholder="select">
-							<option value="select">select</option>
-							<option value="other">...</option>
+							<option>Select Workout</option>
+							<option value="WOD A">WOD A</option>
+							<option value="WOD B">WOD B</option>
+							<option value="WOD C">WOD C</option>
+							<option value="WOD D">WOD D</option>
+							<option value="WOD E">WOD E</option>
+							<option value="WOD F">WOD B</option>
 						</FormControl>
 					</FormGroup>
 				</div>
