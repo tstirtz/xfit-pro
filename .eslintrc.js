@@ -5,7 +5,11 @@ module.exports = {
     "es6": true,
     "node": true
 },
-  "extends": "airbnb-base",
+  "extends": [
+    "airbnb-base",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
   "parserOptions": {
     "ecmaFeatures": {
         "jsx": true
